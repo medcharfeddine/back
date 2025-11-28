@@ -11,5 +11,6 @@
         "src": "/api/(.*)",
         "dest": "/"
         }
-    ]
+    ],
+    "rewrites": [{ "source": "/(.*)", "destination": "/index.html" }]
 }
